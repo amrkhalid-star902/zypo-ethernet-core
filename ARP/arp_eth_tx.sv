@@ -44,7 +44,7 @@ module arp_eth_tx#(
     output logic                m_eth_axi_payload_tlast,   //End of the frame (EOF)
     output logic                m_eth_axi_payload_tuser,   //Start of the frame (SOF)
     
-    //Statud
+    //Status
     output logic                busy
 
 );
